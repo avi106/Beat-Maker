@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 i,
@@ -89,16 +89,23 @@ svg {
 
 .play {
   padding: 1rem 2rem;
+  font-family: "Montserrat";
   font-size: 1.5rem;
-  background: rgb(88, 88, 88);
+  background: green;
   color: white;
-  border: none;
+  border: 1px solid red;
+  border-radius: 3.5rem 2.5em;
   cursor: pointer;
+  width: 10rem;
 }
 
 select {
   font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
   cursor: pointer;
+}
+.mute.active {
+  background: gray;
 }
 
 @keyframes playTrack {
